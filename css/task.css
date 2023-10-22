@@ -74,17 +74,32 @@ a {
         } 
         header .list{
             display: none;}      
-.main-1{
-    padding: 0 38px; 
-    margin-top: 60px ;
+ 
+
+.main-1 .imiges-pading{
+    display: flex;
+    justify-content: center;
 }
+.main-1 .flex-end{
+    display: flex;
+    justify-content: center;
+}
+.main-1 .ipsum{
+    display: flex;
+    justify-content: center;
+ }
 .main-1 .lorem{
     font-size: 36px;
 }
 .main-1 .margin-top{
     margin: 80px 0;
+    display: flex;
+    
 }
 
+.main-1{
+    padding:0 80px;
+}
 .circle-1{
     width: 45px;
     height: 45px;
@@ -92,7 +107,7 @@ a {
 
     border-radius: 50%;
     position: absolute;
-    left: 20px;
+    left: 105px;
    
 }
 .circle-2{
@@ -113,7 +128,7 @@ a {
 
     border-radius: 50%;
     position: absolute;
-    /* left: 30px; */
+    
 }
 .circle-4{
     width: 45px;
@@ -131,7 +146,7 @@ a {
     
     position: absolute;
     border-radius: 50%;
-    /* left: 20px; */
+    
 }
 .circle-6{
     width: 45px;
@@ -146,6 +161,10 @@ a {
 .main-1 .paper{
    position: relative;
    top: 8px;
+}
+.main-1 .centr{
+    display: flex;
+    justify-content: center;
 }
 .main-1 .star{
     position: relative;
@@ -175,6 +194,7 @@ a {
     margin-top: 40px;
    
  }
+
     
 .main-2 .paragrap{
     padding: 20px;
@@ -200,6 +220,7 @@ a {
     display: flex;
     justify-content: center;
 }
+
 .main-3 .add{
     padding: 12px 155px;
     background-color: #F84646;
@@ -209,6 +230,8 @@ a {
 .main-3 .paragrap{
     padding: 20px;
     margin-top: 61px;
+    display: flex;
+    justify-content: center;
 }
 .main-3 .button{
     display: flex;
